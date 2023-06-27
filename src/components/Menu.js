@@ -5,8 +5,8 @@ export default function Menu() {
     <nav>
       <ul>
         <li> <Link href="/"> Inicio </Link></li>
-        <li> <Link href="/Carrinho"> Carrinho </Link></li>
-        <li> <Link href="/Cadastro"> Cadastro </Link></li>
+        <li> <Link href="/carrinho"> Carrinho </Link></li>
+        <li> <Link href="/cadastro"> Cadastro </Link></li>
         <li> <Link href="/login"> Login </Link></li>
       </ul>
     </nav>
