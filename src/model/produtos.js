@@ -9,3 +9,7 @@ export async function busca( id ){
     const resposta = await supabase.from("produtos").select().eq("id", id);
     return resposta;
 }
+
+export async function buscaLista( lista_id ){
+    return await supabase.from("produtos").select().in("id", lista_id);
+}
