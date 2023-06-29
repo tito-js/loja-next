@@ -1,5 +1,4 @@
-//import "@/app/globals.css"
-
+import "@/app/globals.css"
 import Menu from "@/components/Menu"
 import Footer from "@/components/Footer"
 
